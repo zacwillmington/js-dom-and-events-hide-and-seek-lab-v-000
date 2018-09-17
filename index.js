@@ -21,10 +21,10 @@ function increaseRankBy(n){
     let childElementsOfSecondList = secondList.children
 
     console.log(childElementsOfFirstList);
-    // childElementsOfFirstList.innerHTML.forEach(function (child){
-    //         child = parseInt(child.innerHTML) + 3;
-    //     }
-    // );
+    childElementsOfFirstList.innerHTML.forEach(function (child){
+            child = parseInt(child.innerHTML) + 3;
+        }
+    );
 
 
 }
