@@ -23,8 +23,7 @@ function increaseRankBy(n){
     console.log(childElementsOfFirstList);
     for(let i = 0; i < childElementsOfFirstList.length; i++){
             childElementsOfFirstList[i] = parseInt(childElementsOfFirstList[i].innerHTML) + 3;
-        }
-    );
+        };
 
 
 }
