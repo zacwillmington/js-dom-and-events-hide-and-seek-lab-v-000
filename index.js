@@ -2,3 +2,7 @@ function getFirstSelector(selector){
         console.log(selector);
         return document.querySelector(selector);
 }
+
+function nestedTarget(target){
+    
+}
