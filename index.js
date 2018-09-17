@@ -15,7 +15,7 @@ function increaseRankBy(n){
     let secondList = document.querySelectorAll('.ranked-list')[1]
 
     let childElementsOfFirstList = firstList.children
-    let childElementsOfsecondList = SecondList.children
+    let childElementsOfSecondList = secondList.children
 
     childElementsOfFirstList.forEach(function (child){
             child.innerHTML = parseInt(child.innerHTML) + 3;
