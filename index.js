@@ -7,6 +7,6 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-    const grandNode = document.querySelector('grand-node')
+    const grandNode = document.querySelector('grand-node');
     return grandNode[grandNode.length - 1];
 }
