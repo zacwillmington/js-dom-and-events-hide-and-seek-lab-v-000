@@ -19,7 +19,7 @@ function increaseRankBy(n){
 
     let childElementsOfFirstList = firstList.children
     let childElementsOfSecondList = secondList.children
-    
+
     console.log(childElementsOfFirstList);
     // childElementsOfFirstList.innerHTML.forEach(function (child){
     //         child = parseInt(child.innerHTML) + 3;
